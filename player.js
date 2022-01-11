@@ -104,7 +104,7 @@
             //     document.links[i].innerHTML = newUrl;
             //     document.links[i].href =  newUrl;
             // }
-            localStorage.setItem("userOrg", 'niit');
+            // localStorage.setItem("userOrg", 'niit');
             let hostPart = document.links[i].hostname.split('.')
             console.log(document.links[i]);
             if (hostPart[0] === 'client')
