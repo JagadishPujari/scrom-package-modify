@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="HTML5 Presentation" name="description"/>
+    <meta content="HTML5 SlideShow, HTML5 Presentation, HTML5Point Converter, DigitalOfficePro" name="keywords"/>
+    <meta content="HTML5Point" name="author"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <title>Presentation</title>
+    <script type="text/javascript">
+    function goToPptPage(){
+        localStorage.setItem("userOrg", document.getElementById("org").value);  
+        window.location.href = "file:///Users/jagadish/html5-ppt/html5/Day_4_ppt.html";
+
+    }
+    
+    </script>
+<body><div>
+    Enter Org name: <input name="org" id="org" type = "text" />
+    <button onclick="goToPptPage()">GO</button>
+           
+</div>
+</body>
+</html>
